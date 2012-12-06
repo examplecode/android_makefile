@@ -1,0 +1,9 @@
+LOCAL_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_SRC_FILES:= hello.c
+LOCAL_MODULE:= libhello_static
+#LOCAL_C_INCLUDES :=
+#LOCAL_STATIC_LIBRARIES :=
+#LOCAL_SHARED_LIBRARIES :=
+include $(BUILD_STATIC_LIBRARY)
