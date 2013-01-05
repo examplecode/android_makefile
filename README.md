@@ -13,7 +13,9 @@ include $(BUILD_XXX)结束。
 1. helloapk : 生成一个 apk文件
 2. helloapkjar : 生成 apk文件依赖第三方的java库
 3. helloapkso : 生成 apk文件依赖第三方的.so 文件 
-
+4. helloStaticLib : 生成一个静态库
+5. helloShareLib : 生成一个动态库
+6. helloExcutable: 生成一个可执行程序
 
 ## 使用说明 ##
 
