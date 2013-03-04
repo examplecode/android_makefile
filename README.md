@@ -16,6 +16,8 @@ include $(BUILD_XXX)结束。
 4. helloStaticLib : 生成一个静态库
 5. helloShareLib : 生成一个动态库
 6. helloExcutable: 生成一个可执行程序
+7. use_share_lib: 使用项目中已有共享库的可执行文件
+8. use_static_lib: 使用项目中已有静态库的可执行文件
 
 ## 使用说明 ##
 

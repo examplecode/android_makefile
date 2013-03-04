@@ -1,12 +1,12 @@
 /*
  * =====================================================================================
  *
- *       Filename:  hello.c
+ *       Filename:  hello.h
  *
- *    Description:  hello staic lib
+ *    Description:  hello.h
  *
  *        Version:  1.0
- *        Created:  12/05/2012 06:40:08 PM
+ *        Created:  03/01/2013 10:21:29 AM
  *       Revision:  none
  *       Compiler:  gcc
  *
@@ -15,9 +15,8 @@
  *
  * =====================================================================================
  */
-#include <stdlib.h>
-#include "hello.h"
-void sayHello() 
-{
-	printf("Hello World");
-}
+
+#ifndef  hello_INC
+#define  hello_INC
+void sayHello();
+#endif   /* ----- #ifndef hello_INC  ----- */
